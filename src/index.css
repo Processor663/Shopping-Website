@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --brand-secondary: #ce1d76;
+  --brand-modify-secondary: rgba(206, 29, 118, 0.3);
+  --button-bg-color: #fed700;
+  --button-text-color: #232323;
+  --button-bg-hover-color: #ce1d76;
+  --button-text-hover-color: #ffffff;
+  --button-text-hover-modify-color: rgba(255, 255, 255, 0.4);
+  --product-btn-bg-color: #ffffff;
+  --product-icon-color: #222222;
+  --product-btn-bg-hover-color: #ce1d76;
+  --product-icon-hover-color: #ffffff;
+  --navbar-background-color: #f6f7f8;
+  --navbar-text-modify-color: rgba(102, 102, 102, 0.1);
+  --navbar-text-color: #666666;
+  --menu-bg-color: #232323;
+  --menu-text-modify-color: rgba(255, 255, 255, 0.1);
+  --menu-text-color: #FFFFFF;
+  --menu-text-hover-color: #ce1d76;
+  --sale-bg-color: #7fbc1e;
+  --sale-text-color: #ffffff;
+  --soldout-bg-color: #c92c2c;
+  --soldout-text-color: #ffffff;
+  --footer-bg-color: #f5f7f8;
+  --footer-heading-color: #232323;
+  --footer-text-color: #666666;
+  --footer-text-hover-color: #ce1d76;
+  --footer-bottom-bg-color: #232323;
+  --footer-bottom-text-color: #ffffff;
+  --password-color: #232323;
+  --password-textcolor: #FFFFFF;
+  --font-body-family: Roboto, serif;
+  --bg-free-shipping-indicator: #f9f9f9;
+  --bg-free-shipping-indicator-eligible: #fed700;
+  --color-free-shipping-indicator: #232323;
+  --color-free-shipping-indicator-eligible: #fed700;
+  --progress-truck-bg: #fed700;
+  --progress-truck-wrapper: #232323;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+
+html, body {
+  font-family: var(--font-body-family);
+}
