@@ -49,4 +49,5 @@
 
 html, body {
   font-family: var(--font-body-family);
+  cursor: pointer;
 }
